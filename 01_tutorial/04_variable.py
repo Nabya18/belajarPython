@@ -30,3 +30,40 @@ a = 5
 b = "John"
 print(type(a))
 print(type(b))
+
+print("/n====Penamaan Variable===/n")
+'''
+1. harus diawali dengan huruf atau karakter garis bawah
+2. tidak boleh diawali dengan angka
+3. hanya boleh berisi karakter alfanumerik dan garis bawah (Az, 0-9, dan _ )
+4. tidak boleh berupa kata kunci Python apa pun
+
+Nama Variable Multi Kata
+1. Camel Case
+2. Pascal case
+3. Snake Case
+'''
+
+myVariableName = "Camel Case"
+MyVariableName = "Pascal Case"
+my_variable_name = "Snake Case"
+
+print("/n====multiple variable===/n")
+#1. Banyak Nilai ke Banyak Variabel
+x, y, z = "Orange", "Banana", "Cherry"
+print(x)
+print(y)
+print(z)
+
+#2. Satu Nilai untuk Banyak Variabel
+x = y = z = "Orange"
+print(x)
+print(y)
+print(z)
+
+#3. Unpack a Collection
+fruits = ["apple", "banana", "cherry"]
+x, y, z = fruits
+print(x)
+print(y)
+print(z)
