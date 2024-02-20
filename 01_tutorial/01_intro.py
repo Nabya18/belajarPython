@@ -16,4 +16,9 @@ Apa itu python? bahasa pemrograman yang dibuat oleh Guido van Rossum tahun 1991
 3. Mengapa python?
     - berjalan pada sistem interpreter, artinya kode dapat dieksekusi segera setelah ditulis.
     - dapat ditangani dengan cara prosedural, cara berorientasi objek, atau cara fungsional.
+
+cek versi => python --version
+mengeksekusi python app => python <namaApp.py>
 '''
+
+print("Hello World")
