@@ -67,3 +67,62 @@ x, y, z = fruits
 print(x)
 print(y)
 print(z)
+
+print("/n====Output Variables===/n")
+x = "Python"
+y = "is"
+z = "awesome"
+print("mencetak output variable terpisah = ", x, y, z)
+print("menggabungkan nilai variable pada string = ", x + y + z)
+
+x = 5
+y = 10
+print("menjumlahkan nilai variable pada integer = ", x + y)
+
+print("/n====Global Variables===/n")
+'''
+1. dibuat di luar suatu fungsi (seperti pada semua contoh di atas) dikenal sebagai variabel global
+2. dapat digunakan oleh semua orang, baik di dalam fungsi maupun di luar fungsi.
+3. Jika membuat variabel dengan nama yang sama di dalam suatu fungsi, variabel ini akan bersifat lokal, dan hanya dapat digunakan di dalam fungsi tersebut.
+4. Untuk membuat variabel global di dalam suatu fungsi, dapat menggunakan 'global' kata kunci.
+5. gunakan 'global' kata kunci jika ingin mengubah variabel global di dalam suatu fungsi.
+'''
+
+# contoh variable di luar fungsi
+x = "awesome"
+
+def myfunc():
+  print("Python is " + x)
+
+myfunc()
+
+# contoh variable di dalam fungsi
+x = "awesome"
+
+def myfunc():
+  x = "fantastic"
+  print("Python is " + x)
+
+myfunc()
+
+print("Python is " + x)
+
+# contoh menggunakan global kata kunci
+def myfunc():
+  global x
+  x = "fantastic"
+
+myfunc()
+
+print("Python is " + x)
+
+# contoh merubahkan variable global kata kunci
+x = "awesome"
+
+def myfunc():
+  global x
+  x = "fantastic"
+
+myfunc()
+
+print("Python is " + x)
