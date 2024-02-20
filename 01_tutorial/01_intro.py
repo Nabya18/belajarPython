@@ -19,6 +19,7 @@ Apa itu python? bahasa pemrograman yang dibuat oleh Guido van Rossum tahun 1991
 
 cek versi => python --version
 mengeksekusi python app => python <namaApp.py>
+keluar dari antarmuka baris perintah python => exit
 '''
 
 print("Hello World")
