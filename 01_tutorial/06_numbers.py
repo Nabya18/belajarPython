@@ -6,7 +6,7 @@
 2. Int
     bilangan bulat => positif atau negatif, tanpa desimal, dan panjangnya tidak terbatas
 3. Float
-    bilangan desimal => positif atau negatif yang mengandung satu atau lebih desimal.
+    bilangan desimal => positif atau negatif yang mengandung satu atau lebih desimal hingga 15 tempat desimal.
     bilangan ilmiah dengan huruf "e" untuk menunjukkan pangkat 10
 4. Complex number
     ditulis dengan huruf "j" sebagai bagian imajinernya
