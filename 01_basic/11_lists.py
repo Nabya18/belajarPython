@@ -51,17 +51,18 @@ List => digunakan untuk menyimpan banyak item dalam satu variabel
         sort()	            Mengurutkan list
 
 Karakteristik List:
-    1. diurutkan => memiliki urutan yang ditentukan, dan urutan itu tidak akan berubah.
-    2. dapat diubah => dapat mengubah, menambah, dan menghapus item dalam daftar setelah dibuat.
-    3. memungkinkan nilai duplikat => daftar dapat memiliki item dengan nilai yang sama
-    4. diindeks, item pertama memiliki indeks [0], item kedua memiliki indeks, [1]dll.
-    5. item dapat berupa tipe data apa pun
-    6. dapat menggunakan list() constructor
+    1. ditulis dengan []
+    2. diurutkan => memiliki urutan yang ditentukan, dan urutan itu tidak akan berubah.
+    3. dapat diubah => dapat mengubah, menambah, dan menghapus item dalam daftar setelah dibuat.
+    4. memungkinkan nilai duplikat => daftar dapat memiliki item dengan nilai yang sama
+    5. diindeks, item pertama memiliki indeks [0], item kedua memiliki indeks, [1]dll.
+    6. item dapat berupa tipe data apa pun
+    7. dapat menggunakan list() constructor
 
 len() => menentukan berapa banyak item yang dimiliki suatu daftar
 
 Tipe data collection dalam bahasa pemrograman Python:
-    a. Daftar => kumpulan yang terurut dan dapat diubah. Mengizinkan anggota duplikat.
+    a. List => kumpulan yang terurut dan dapat diubah. Mengizinkan anggota duplikat.
     b. Tuple => koleksi yang tertata dan tidak dapat diubah. Mengizinkan anggota duplikat.
     c. Set => koleksi yang tidak berurutan, tidak dapat diubah*, dan tidak terindeks. Tidak ada anggota duplikat.
     d. Dict => kumpulan yang diurutkan** dan dapat diubah. Tidak ada anggota duplikat.
