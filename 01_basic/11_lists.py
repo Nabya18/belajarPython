@@ -58,6 +58,7 @@ Karakteristik List:
     5. diindeks, item pertama memiliki indeks [0], item kedua memiliki indeks, [1]dll.
     6. item dapat berupa tipe data apa pun
     7. dapat menggunakan list() constructor
+    8. mutable
 
 len() => menentukan berapa banyak item yang dimiliki suatu daftar
 

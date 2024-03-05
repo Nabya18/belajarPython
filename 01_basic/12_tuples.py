@@ -8,6 +8,7 @@ Tuple adalah koleksi yang terurut dan tidak dapat diubah .
     5. diindeks, item pertama memiliki indeks [0], item kedua memiliki indeks, [1]dll.
     6. item dapat berupa tipe data apa pun
     7. dapat menggunakan tuple() constructor
+    8. immutable
 
 1. Access Tuples => menggunakan indexing (seperti list)
 2. Update Tuples => harus diubah menjadi list terlebih dahulu baru konversi kembali ke tuple
