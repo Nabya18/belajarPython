@@ -6,7 +6,7 @@ Python RegEx
 1. Modul RegEx
     Python memiliki paket bawaan bernama re => yang dapat digunakan untuk bekerja dengan Ekspresi Reguler.
 2. RegEx dengan Python
-    Ketika Anda telah mengimpor remodul, Anda dapat mulai menggunakan ekspresi reguler
+    Ketika Kita telah mengimpor remodul, Kita dapat mulai menggunakan ekspresi reguler
 3. Fungsi RegEx
     Function	    Description
     findall	        Returns a list containing all matches
@@ -41,7 +41,7 @@ Python RegEx
         (characters from a to Z, digits from 0-9, and the underscore _ character)	                                                "\w"
     \W	Returns a match where the string DOES NOT contain any word characters	                                                    "\W"
     \Z	Returns a match if the specified characters are at the end of the string	                                                "Spain\Z"
-6. Sets => sekumpulan karakter di dalam sepasang tanda kurung siku []yang mempunyai arti khusus
+6. Sets => sekumpulan karakter di dalam sepasang tKita kurung siku []yang mempunyai arti khusus
     Set	            Description
     [arn]	        Returns a match where one of the specified characters (a, r, or n) is present
     [a-n]	        Returns a match for any lower case character, alphabetically between a and n
@@ -61,10 +61,10 @@ Python RegEx
     c. Jika tidak ada kecocokan yang ditemukan, nilai Nonedikembalikan
 9. Fungsi split()
     a. Fungsi ini split()mengembalikan daftar yang stringnya telah dipisahkan pada setiap kecocokan
-    b. Anda dapat mengontrol jumlah kemunculan dengan menentukan maxsplit parameter
+    b. Kita dapat mengontrol jumlah kemunculan dengan menentukan maxsplit parameter
 10. Fungsi sub()
-    a. Fungsi ini sub()menggantikan kecocokan dengan teks pilihan Anda
-    b. Anda dapat mengontrol jumlah penggantian dengan menentukan count parameter
+    a. Fungsi ini sub()menggantikan kecocokan dengan teks pilihan Kita
+    b. Kita dapat mengontrol jumlah penggantian dengan menentukan count parameter
 11. Match Object => bjek yang berisi informasi tentang pencarian dan hasilnya
     a. Catatan: Jika tidak ada kecocokan, nilai Noneyang akan dikembalikan, bukan Match Object.
     b. Objek Match memiliki properti dan metode yang digunakan untuk mengambil informasi tentang pencarian, dan hasilnya:
@@ -173,9 +173,9 @@ x = re.search(r"\bS\w+", txt)
 print(x.group())
 
 """
-Output yang Anda sebutkan adalah hasil dari eksekusi kode yang tepat. Mari kita lihat satu per satu:
+Output yang Kita sebutkan adalah hasil dari eksekusi kode yang tepat. Mari kita lihat satu per satu:
 1. print(x) mencetak objek kecocokan dari pencarian. Ini mencetak <re.Match object; span=(5, 7), match='ai'>, yang menunjukkan bahwa ditemukan kecocokan dengan kata "ai" pada posisi indeks 5 hingga 7 dalam string dan kata yang cocok adalah "ai".
-2. print(x.span()) mencetak posisi (posisi awal dan akhir) dari kecocokan pertama. Karena Anda mencari kata yang dimulai dengan huruf besar "S" dan kata pertama yang sesuai adalah "Spain", posisi awal kecocokan adalah indeks 12 dan posisi akhirnya adalah indeks 17 dalam string.
+2. print(x.span()) mencetak posisi (posisi awal dan akhir) dari kecocokan pertama. Karena Kita mencari kata yang dimulai dengan huruf besar "S" dan kata pertama yang sesuai adalah "Spain", posisi awal kecocokan adalah indeks 12 dan posisi akhirnya adalah indeks 17 dalam string.
 3. print(x.string) mencetak string yang diteruskan ke fungsi pencarian. Dalam hal ini, itu adalah string asli "The rain in Spain".
 4. print(x.group()) mencetak bagian string yang sesuai dengan pola pencarian. Karena pola pencarian mencari kata yang dimulai dengan huruf besar "S", dan kata pertama yang cocok adalah "Spain", maka hasilnya adalah "Spain".
 """

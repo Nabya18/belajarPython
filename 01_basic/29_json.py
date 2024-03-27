@@ -8,11 +8,11 @@ Python memiliki paket bawaan bernama json, yang dapat digunakan untuk bekerja de
 1. JSON dengan Python
     import json
 2. Parsing JSON - Konversi dari JSON ke Python
-    a. Jika Anda memiliki string JSON, Anda dapat menguraikannya dengan menggunakan json.loads() metode ini.
+    a. Jika Kita memiliki string JSON, Kita dapat menguraikannya dengan menggunakan json.loads() metode ini.
     b. Hasilnya akan menjadi dict Python .
 3. Konversi dari Python ke JSON
-    Jika Anda memiliki objek Python, Anda dapat mengubahnya menjadi string JSON dengan menggunakan json.dumps()metode ini
-4. Anda dapat mengonversi objek Python dari tipe berikut, menjadi string JSON:
+    Jika Kita memiliki objek Python, Kita dapat mengubahnya menjadi string JSON dengan menggunakan json.dumps()metode ini
+4. Kita dapat mengonversi objek Python dari tipe berikut, menjadi string JSON:
     Python	        JSON
     dict	        Object
     list	        Array

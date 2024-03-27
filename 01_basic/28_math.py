@@ -1,6 +1,6 @@
 """
 Matematika Python
-    Python memiliki serangkaian fungsi matematika bawaan, termasuk modul matematika ekstensif, yang memungkinkan Anda melakukan tugas matematika pada angka.
+    Python memiliki serangkaian fungsi matematika bawaan, termasuk modul matematika ekstensif, yang memungkinkan Kita melakukan tugas matematika pada angka.
 
 1. Fungsi Matematika Bawaan
     a. Fungsi min() and max() dapat digunakan untuk mencari nilai terendah atau tertinggi dalam sebuah iterable
@@ -9,9 +9,9 @@ Matematika Python
 
 2. Modul Matematika
     a. Python juga memiliki modul bawaan yang disebut math, yang memperluas daftar fungsi matematika.
-    b. Untuk menggunakannya, Anda harus mengimpor math modul:
+    b. Untuk menggunakannya, Kita harus mengimpor math modul:
         import math
-    c. Ketika Anda telah mengimpor mathmodul, Anda dapat mulai menggunakan metode dan konstanta modul.
+    c. Ketika Kita telah mengimpor mathmodul, Kita dapat mulai menggunakan metode dan konstanta modul.
     d. math.sqrt() => Misalnya, metode ini mengembalikan akar kuadrat suatu angka
     e. math.ceil() => membulatkan angka ke atas hingga bilangan bulat terdekat
     f. math.floor() => metode membulatkan angka ke bawah hingga bilangan bulat terdekat, dan mengembalikan hasilnya
