@@ -32,7 +32,7 @@ class Person:
   def printname(self):
     print(self.firstname, self.lastname)
 
-#Use the Person class to create an object, and then execute the printname method:
+#Gunakan kelas Person untuk membuat objek, lalu jalankan metode printname:
 
 x = Person("John", "Doe")
 x.printname()
