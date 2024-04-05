@@ -39,6 +39,10 @@ arr = np.array([1, 2, 3])
 
 for x in arr:
   print(x)
+"""
+Iterasi langsung melalui elemen-elemen array 1-D dilakukan dengan loop for. Setiap elemen diprint satu per satu.
+"""
+
 
 ## Iterasi Array 2-D
 # Ulangi elemen array 2-D berikut
@@ -46,6 +50,10 @@ arr = np.array([[1, 2, 3], [4, 5, 6]])
 
 for x in arr:
   print(x)
+"""
+Dalam kasus ini, setiap iterasi menghasilkan baris array 2-D, karena array 2-D terdiri dari baris-baris yang berisi elemen-elemen tersebut.
+"""
+
 
 # Ulangi setiap elemen skalar array 2-D
 arr = np.array([[1, 2, 3], [4, 5, 6]])
@@ -53,6 +61,10 @@ arr = np.array([[1, 2, 3], [4, 5, 6]])
 for x in arr:
   for y in x:
     print(y)
+"""
+Iterasi dilakukan secara bertingkat, dengan loop luar mengakses setiap baris, dan loop dalam mengakses setiap elemen dalam baris tersebut.
+"""
+
 
 ## Iterasi Array 3-D
 # Ulangi elemen array 3-D berikut
@@ -60,6 +72,10 @@ arr = np.array([[[1, 2, 3], [4, 5, 6]], [[7, 8, 9], [10, 11, 12]]])
 
 for x in arr:
   print(x)
+"""
+Dalam kasus ini, setiap iterasi menghasilkan matriks 2-D (sub-array) dari array 3-D. Sehingga, kita melihat matriks-matriks tersebut sebagai output iterasi.
+"""
+
 
 # Untuk mengembalikan nilai sebenarnya, skalar, kita harus mengulangi array di setiap dimensi.
 # Iterasi ke skalar
@@ -69,6 +85,10 @@ for x in arr:
   for y in x:
     for z in y:
       print(z)
+"""
+Iterasi dilakukan secara bertingkat melalui setiap dimensi array, sehingga kita bisa mengakses setiap elemen skalar dalam array 3-D.
+"""
+
 
 ## Iterasi Array Menggunakan nditer()
 # Iterasi melalui array 3-D berikut
@@ -76,6 +96,10 @@ arr = np.array([[[1, 2], [3, 4]], [[5, 6], [7, 8]]])
 
 for x in np.nditer(arr):
   print(x)
+"""
+nditer() adalah metode yang lebih fleksibel untuk melakukan iterasi pada array NumPy, yang secara otomatis menyesuaikan langkah iterasi sesuai dengan dimensi array.
+"""
+
 
 ## Iterasi Array Dengan Tipe Data Berbeda
 # Iterasi melalui array sebagai string
@@ -83,6 +107,11 @@ arr = np.array([1, 2, 3])
 
 for x in np.nditer(arr, flags=['buffered'], op_dtypes=['S']):
   print(x)
+"""
+Dalam contoh ini, kita menggunakan nditer() untuk mengiterasi melalui array NumPy
+dan dengan parameter op_dtypes=['S'], kita memaksa setiap elemen untuk diinterpretasikan sebagai string ('S')
+"""
+
 
 ## Iterasi Dengan Ukuran Langkah Berbeda
 # Ulangi setiap elemen skalar array 2D dengan melewatkan 1 elemen
@@ -90,6 +119,11 @@ arr = np.array([[1, 2, 3, 4], [5, 6, 7, 8]])
 
 for x in np.nditer(arr[:, ::2]):
   print(x)
+"""
+Dalam contoh ini, kita menggunakan nditer() untuk mengiterasi melalui array 2-D,
+tetapi hanya mempertimbangkan elemen-elemen yang dipilih dengan langkah yang berbeda (::2).
+"""
+
 
 ## Iterasi yang Dihitung Menggunakan ndenumerate()
 # Hitung elemen array 1D berikut
@@ -103,3 +137,7 @@ arr = np.array([[1, 2, 3, 4], [5, 6, 7, 8]])
 
 for idx, x in np.ndenumerate(arr):
   print(idx, x)
+"""
+ndenumerate() adalah fungsi yang memberikan iterator bersama dengan indeksnya
+sehingga kita dapat mengetahui posisi relatif setiap elemen dalam array saat melakukan iterasi.
+"""

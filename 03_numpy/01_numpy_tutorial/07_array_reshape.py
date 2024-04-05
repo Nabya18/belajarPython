@@ -27,6 +27,9 @@ arr = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12])
 newarr = arr.reshape(4, 3)
 
 print(newarr)
+"""
+Ini mengubah array 1-D dengan 12 elemen menjadi array 2-D dengan 4 baris dan 3 kolom.
+"""
 
 
 ## Bentuk Ulang Dari 1-D ke 3-D
@@ -37,6 +40,10 @@ arr = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12])
 newarr = arr.reshape(2, 3, 2)
 
 print(newarr)
+"""
+Ini mengubah array 1-D dengan 12 elemen menjadi array 3-D dengan 2 sub-array yang masing-masing memiliki 3 sub-array dengan 2 elemen.
+"""
+
 
 ## Mengembalikan Salin atau Lihat?
 # Periksa apakah array yang dikembalikan adalah salinan atau tampilan
@@ -44,6 +51,12 @@ print(newarr)
 arr = np.array([1, 2, 3, 4, 5, 6, 7, 8])
 
 print(arr.reshape(2, 4).base)
+"""
+Ini mencetak array asli, menunjukkan bahwa reshape hanya membuat tampilan baru dari array aslinya.
+Dalam hal ini, kita mengkonfirmasi apakah array yang dikembalikan dari reshape adalah salinan array asli atau hanya tampilan.
+Karena base dari array yang direshape sama dengan array asli, ini menunjukkan bahwa reshape hanya membuat tampilan baru dari array aslinya.
+"""
+
 
 ## Dimensi Tidak Diketahui
 # Ubah array 1D dengan 8 elemen menjadi array 3D dengan elemen 2x2
@@ -53,6 +66,13 @@ arr = np.array([1, 2, 3, 4, 5, 6, 7, 8])
 newarr = arr.reshape(2, 2, -1)
 
 print(newarr)
+"""
+Dalam contoh ini, nilai -1 digunakan untuk dimensi ketiga, yang menyebabkan NumPy menyesuaikan ukuran dimensi ketiga secara otomatis agar total elemen tetap sama.
+Di sini, kita menggunakan -1 sebagai parameter reshape pada dimensi ketiga.
+Ini menginstruksikan NumPy untuk menyesuaikan ukuran dimensi ketiga secara otomatis agar total elemen tetap sama dengan array asli.
+Sehingga, kita mendapatkan array 3-D dengan 2 sub-array, masing-masing memiliki 2 sub-array yang masing-masing memiliki 2 elemen.
+"""
+
 
 ## Flattening array
 # Ubah array menjadi array 1D
@@ -61,3 +81,8 @@ arr = np.array([[1, 2, 3], [4, 5, 6]])
 newarr = arr.reshape(-1)
 
 print(newarr)
+"""
+Ini mengubah array 2-D menjadi array 1-D. -1 dalam reshape menunjukkan bahwa NumPy harus menghitung ukuran dimensi yang sesuai untuk array 1-D berdasarkan jumlah elemen array yang asli.
+Ini menyebabkan NumPy menghitung ukuran dimensi yang sesuai untuk array 1-D berdasarkan jumlah elemen array asli.
+Sehingga, array 2-D dengan 2 baris dan 3 kolom diubah menjadi array 1-D.
+"""
