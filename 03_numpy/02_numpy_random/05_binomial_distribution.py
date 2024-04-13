@@ -44,3 +44,12 @@ sns.distplot(random.normal(loc=50, scale=5, size=1000), hist=False, label='norma
 sns.distplot(random.binomial(n=100, p=0.5, size=1000), hist=False, label='binomial')
 
 plt.show()
+
+"""
+Dalam berbagai konteks aplikasi, distribusi binomial digunakan untuk memodelkan situasi di mana terdapat dua hasil yang mungkin dalam setiap percobaan, dengan probabilitas keberhasilan yang sama untuk setiap percobaan, dan percobaan-percobaan tersebut bersifat independen. Berikut beberapa contoh:
+    1. Percobaan Berulang: Dalam pengujian klinis, distribusi binomial digunakan untuk memodelkan hasil percobaan obat, di mana pasien dapat sembuh atau tidak sembuh. Probabilitas keberhasilan adalah probabilitas sembuh dari penyakit tertentu.
+    2. Pengujian Kualitas: Dalam pengendalian kualitas manufaktur, distribusi binomial digunakan untuk memodelkan jumlah produk cacat dalam suatu batch produksi. Setiap produk bisa cacat (gagal) atau tidak, dengan probabilitas cacat yang sama untuk setiap produk.
+    3. Percobaan Bernilai Tunggal: Dalam penelitian pasar, distribusi binomial dapat digunakan untuk memodelkan hasil survei pendapat, di mana responden dapat memilih opsi yang satu atau yang lain. Probabilitas keberhasilan adalah probabilitas bahwa responden memilih opsi tertentu.
+    4. Analisis Biologi: Dalam biologi, distribusi binomial digunakan untuk memodelkan hasil percobaan genetika atau populasi, di mana individu dapat memiliki sifat genetik tertentu atau tidak. Probabilitas keberhasilan adalah probabilitas individu memiliki sifat genetik yang diinginkan.
+    5. Peramalan: Dalam peramalan, distribusi binomial dapat digunakan untuk memprediksi jumlah kejadian tertentu dalam suatu periode waktu, seperti jumlah klien yang datang ke toko dalam sehari.
+"""

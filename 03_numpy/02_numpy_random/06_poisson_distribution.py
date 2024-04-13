@@ -40,3 +40,17 @@ sns.distplot(random.binomial(n=1000, p=0.01, size=1000), hist=False, label='bino
 sns.distplot(random.poisson(lam=10, size=1000), hist=False, label='poisson')
 
 plt.show()
+
+"""
+
+Kode ini menggunakan distribusi Poisson untuk menghasilkan sampel acak dengan parameter lam=2 dalam bentuk array dengan ukuran size=10. 
+Distribusi Poisson adalah distribusi probabilitas diskrit yang digunakan untuk menggambarkan jumlah kejadian yang terjadi dalam interval waktu atau ruang tertentu, dengan asumsi bahwa kejadian-kejadian tersebut terjadi secara acak dan independen dari waktu ke waktu.
+
+Parameter lam (λ) dalam distribusi Poisson adalah tingkat kejadian rata-rata dalam interval waktu atau ruang yang ditentukan. 
+Dalam kasus ini, lam=2 berarti rata-rata ada 2 kejadian yang terjadi dalam interval waktu atau ruang yang diberikan.
+
+Parameter size=10 menunjukkan bahwa kita ingin menghasilkan 10 titik data dari distribusi Poisson ini.
+
+Dalam konteks aplikasi, ini dapat digunakan untuk memodelkan berbagai fenomena di mana kejadian langka terjadi secara acak dalam interval waktu atau ruang tertentu. 
+Contoh-contoh inklusifnya adalah jumlah mobil yang melintas di suatu persimpangan dalam satu jam, jumlah panggilan masuk ke pusat panggilan selama satu hari, atau jumlah partikel radioaktif yang terdeteksi dalam satu detik dalam suatu eksperimen fisika.
+"""
