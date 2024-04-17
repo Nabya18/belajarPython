@@ -1,7 +1,7 @@
 """
 Constants
     1. Karena SciPy lebih fokus pada implementasi ilmiah, SciPy menyediakan banyak konstanta ilmiah bawaan.
-    2. Konstanta ini dapat berguna saat Anda bekerja dengan Ilmu Data.
+    2. Konstanta ini dapat berguna saat Kita bekerja dengan Ilmu Data.
     3. Daftar semua unit di bawah modul konstanta dapat dilihat menggunakan dir() fungsi
     4. Unit-unit tersebut ditempatkan dalam kategori berikut:
         Metric: Kembalikan unit yang ditentukan dalam meter (misalnya centi return 0.01)
