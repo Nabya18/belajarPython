@@ -8,7 +8,7 @@ Mengoptimalkan Fungsi
 Akar Persamaan
     1. NumPy mampu mencari akar-akar polinomial dan persamaan linier, namun tidak dapat menemukan akar-akar persamaan non linier, seperti ini:
         x + cos(x)
-    2. Untuk itu Anda bisa menggunakan fungsi SciPy optimize.root.
+    2. Untuk itu Kita bisa menggunakan fungsi SciPy optimize.root.
     3. Fungsi ini membutuhkan dua argumen yang diperlukan:
         fun - fungsi yang mewakili persamaan.
         x0 - tebakan awal untuk root.
@@ -69,7 +69,7 @@ Berikut adalah beberapa atribut penting dari objek yang dikembalikan oleh fungsi
     nfev: Jumlah evaluasi fungsi yang dilakukan oleh algoritma. Ini bisa memberikan gambaran tentang seberapa "mahal" algoritma ini dalam hal komputasi.  
     qtf: Nilai dari fungsi quasi-Newton di x.  
 
-Dengan demikian, objek yang dikembalikan oleh root memberikan gambaran yang lebih lengkap tentang proses dan hasil dari pencarian akar, yang bisa sangat berguna tergantung pada kebutuhan Anda.
+Dengan demikian, objek yang dikembalikan oleh root memberikan gambaran yang lebih lengkap tentang proses dan hasil dari pencarian akar, yang bisa sangat berguna tergantung pada kebutuhan Kita.
 """
 
 # Minimalkan fungsi x^2 + x + 2 dengan BFGS
