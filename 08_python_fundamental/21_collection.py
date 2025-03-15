@@ -1,8 +1,8 @@
 # collection = single "variable" used to store multiple values
 # collection types = list, tuple, set, dictionary
 # List  = [] ordered and changeable. Duplicates OK
-# Tuple = {} ordered and unchangeable. Duplicates OK. FASTER
-# Set   = () unordered, immutable, and unindexed. Add/remove OK. No duplicates
+# Tuple = () ordered and unchangeable. Duplicates OK. FASTER
+# Set   = {} unordered, immutable, and unindexed. Add/remove OK. No duplicates
 
 # List
 fruits = ["apple", "banana", "cherry", "durian", "elderberry", "fig", "grape"] # list
