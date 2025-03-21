@@ -14,7 +14,7 @@ print()
 
 
 # my own module
-import example_module as example
+import example_39 as example
 
 pi = example.pi
 square = example.square(3)
