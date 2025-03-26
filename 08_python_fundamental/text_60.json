@@ -1,27 +1,6 @@
-[
-    [
-        "Name",
-        "Age",
-        "Position"
-    ],
-    [
-        "John",
-        25,
-        "Manager"
-    ],
-    [
-        "Jane",
-        22,
-        "Cashier"
-    ],
-    [
-        "Doe",
-        30,
-        "Cook"
-    ],
-    [
-        "Smith",
-        40,
-        "Janitor"
-    ]
-]
+{
+    "John": "Manager",
+    "Jane": "Cashier",
+    "Doe": "Cook",
+    "Smith": "Janitor"
+}

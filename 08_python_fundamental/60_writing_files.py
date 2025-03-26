@@ -13,16 +13,16 @@ import csv
 
 # txt_data = "Hello, this is a text file"
 
-# employees = {"John": "Manager",
-#              "Jane": "Cashier",
-#              "Doe": "Cook",
-#              "Smith": "Janitor"}
+employees = {"John": "Manager",
+             "Jane": "Cashier",
+             "Doe": "Cook",
+             "Smith": "Janitor"}
 
-employees = [["Name", "Age", "Position"],
-             ["John", 25, "Manager"],
-             ["Jane", 22, "Cashier"],
-             ["Doe", 30, "Cook"],
-             ["Smith", 40, "Janitor"]]
+# employees = [["Name", "Age", "Position"],
+#              ["John", 25, "Manager"],
+#              ["Jane", 22, "Cashier"],
+#              ["Doe", 30, "Cook"],
+#              ["Smith", 40, "Janitor"]]
 
 file_path = "text_60.txt"
 
@@ -52,10 +52,10 @@ except FileExistsError:
     print("File 'text_60.json' already exists")
 
 # csv
-try:
-    with open("text_60.csv", "w", newline="") as file:
-        writer = csv.writer(file)
-        writer.writerows(employees)
-        print("File 'text_60.csv' created")
-except FileExistsError:
-    print("File 'text_60.csv' already exists")
+# try:
+#     with open("text_60.csv", "w", newline="") as file:
+#         writer = csv.writer(file)
+#         writer.writerows(employees)
+#         print("File 'text_60.csv' created")
+# except FileExistsError:
+#     print("File 'text_60.csv' already exists")
